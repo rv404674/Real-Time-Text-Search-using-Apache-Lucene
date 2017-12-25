@@ -22,10 +22,10 @@ If you are using windows/an ide ,add given files into classpath
 3. core/lucene-core-5.0.0.jar 
 4. lucene-demo-5.0.0.jar
 
-Now run index.java. Index.java takes raw txt files from data dir and creates another directory ```index dir``` ,that contains
-an index made from txt files.
-After that run ```Search.java``` to perform search on the text files in data dir.
-To perform search write ```java search virus```.
+Now run ```IndexFiles.java```. Index.java takes raw txt files from data dir and creates another directory ```index dir``` ,
+that contains an  index made from txt files.
+After that run ```SearchFiles.java``` to perform search on the text files in data dir.
+To perform search write ```java SearchFiles virus```.
 Here virus is the word you want to be searched.
 
 At last ,run ```FinalCode.java``` to add gui using swing.
